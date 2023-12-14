@@ -91,7 +91,7 @@
 }
 .rectangle_copy{
   position: fixed;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
   right: 0;
   overflow: hidden;
