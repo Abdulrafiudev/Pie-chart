@@ -1,18 +1,20 @@
 .content_body{
   position: relative;
   height: 100vh;
-  width: 100vw;
+ 
 
 }
 .welcome_back{
   position: absolute;
   top: 9%;
-  left: 40px;
+  left: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 40%;
+ 
+
 
 }
 .welcome_heading{
@@ -191,14 +193,14 @@
 .pie_cemter_container{
   position: absolute;
   border-radius: 13px;
-  background: linear-gradient(1deg, #43A5DC -3.37%, #FF7BAC 99.6%);
   top: 30px;
-  right: 35px;
-  height: 80%;
+  right: 20px;
+  
   width: 55%;
+  background: linear-gradient(1deg, #43A5DC -3.37%, #FF7BAC 99.6%);
   display: flex;
   flex-direction: column;
-  justify-content: start;
+ 
   align-items: center;
 
 }
@@ -245,6 +247,7 @@
 .rectangle_8{
   width: 70px;
   height: 10px;
+  margin-bottom: 70px;
 }
 @media (max-width: 1200px){
   .welcome_back{
@@ -253,6 +256,6 @@
   }
   .pie_cemter_container{
     width: 50%;
-    height: 78%;
+   
   }
 }
