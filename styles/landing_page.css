@@ -83,6 +83,7 @@
   font-family: Lato;
   font-size: 12px;
   border-radius: 8px;
+  text-decoration: none;
   cursor: pointer;
 }
 .track_bar{

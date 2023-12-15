@@ -1,0 +1,258 @@
+.content_body{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+}
+.welcome_back{
+  position: absolute;
+  top: 9%;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+
+}
+.welcome_heading{
+  color: #000;
+  font-family: Lato;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+  text-align: center;
+  margin-bottom: 0;
+}
+.lorem{
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  margin-top: 8px;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+.email_container, .password_container{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: center;
+   margin-bottom: 30px;
+ 
+  
+}
+.email_label, .password_label{
+    color: #000;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-left: 12px;
+    position: absolute;
+    top: -14px;
+    background: white;
+    padding: 5px;
+
+
+}
+.email_input, .password_input{
+  width: 300px;
+  height: 33px;
+  border-radius: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  padding-left: 22px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.email_input::placeholder, .password_input::placeholder{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.13); 
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.padlock_icon{
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  right: 10px;
+  
+}
+.div_box{
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.small_square_box{
+  width: 15px;
+  height: 12px; 
+  border-radius: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.42);
+  background: #FFF; 
+  margin-right: 15px;
+  cursor: pointer;
+}
+.small_square_box:checked{
+  background: blue;
+}
+.remember_me{
+  color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  white-space: nowrap;
+
+}
+.forgot_password{
+  color: #0A7DBD;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  margin-left: 125px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.form_button{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login_button{
+  border-radius: 6px;
+  background: #000; 
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: white;
+  border: none;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  cursor: pointer;
+}
+.demo_button{
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.73);
+  background: #FFF; 
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  cursor: pointer;
+  
+}
+.no_account{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.account{
+  color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.sign_up{
+  color: #0A7DBD;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+}
+.pie_cemter_container{
+  position: absolute;
+  border-radius: 13px;
+  background: linear-gradient(1deg, #43A5DC -3.37%, #FF7BAC 99.6%);
+  top: 30px;
+  right: 35px;
+  height: 80%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+}
+.pie_icon{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  left: -31px;
+}
+.icon_message{
+  height: 110px;
+  width: 110px;
+  border-radius: 40px;
+  margin-top: 86px;
+  margin-bottom: 30px;
+}
+.chat_heading{
+  color: #FFF;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+  margin-bottom: 25px;
+}
+.icon_pie{
+ height: 40px;
+ width: 150px;
+ border-radius: 5px;
+ margin-bottom: 15px;
+ 
+}
+.lorem_2{
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.rectangle_8{
+  width: 70px;
+  height: 10px;
+}
+@media (max-width: 1200px){
+  .welcome_back{
+    width: 35%;
+    
+  }
+  .pie_cemter_container{
+    width: 50%;
+    height: 78%;
+  }
+}
