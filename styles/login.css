@@ -77,7 +77,7 @@
 }
 .email_input::placeholder, .password_input::placeholder{
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.13); 
+  color: rgba(0, 0, 0, 0.32); 
   font-family: Lato;
   font-style: normal;
   font-weight: 400;

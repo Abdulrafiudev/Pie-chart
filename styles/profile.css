@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.profile_content{
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background-color:  rgba(217, 217, 217, 0.22);
+
+}
+.profile_side_bar{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  top: 10px;
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(1deg, #43A5DC -3.37%, #FF7BAC 99.6%);
+  border-radius: 12px;
+  
+  
+}
+.first_div, .second_div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  
+}
+.chat_pic{
+  height: 110px;
+  width: 68px;
+  padding-top: 10px;
+}
+.e_border{
+  width: 85%;
+  height: 75px; 
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 0.63);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.e_circular_border{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #366BC9;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+  margin-bottom: 3px;
+}
+.profile{
+  color: #FFF;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.logout_logo{
+  height: 50px;
+  width: 58px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.logout_content{
+  color: #FFF;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+.logout_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile_details{
+  position: absolute;
+  left: 88px;
+  top: 10px;
+  bottom: 10px;
+  width: 320px;
+  margin-left: 20px;
+  border: 1px solid white;
+  border-radius: 13px;
+  background: white;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_return{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  gap: 8px;
+  cursor: pointer;
+}
+.return_arrow{
+  height: 25px;
+  width: 25px;
+
+}
+.return_arrow_profile{
+  color: #000;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+}
+.profile_content_pic{
+  height: 80px;
+  width: 85px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.display_name_container, .profession_label_container, .phone_label_container, .email_label_container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.display_name_label, .profession_label, .phone_label, .email_label{
+  color: #000;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  margin-left: 12px;
+  position: absolute;
+  top: -14px;
+  background: white;
+  padding: 5px;
+}
+.display_name_input, .profession_input, .phone_input, .email_input{
+  width: 235px;
+  height: 33px;
+  border-radius: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  padding-left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.display_name_input::placeholder, .profession_input::placeholder, .phone_input::placeholder, .email_input::placeholder{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.32); 
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.email_icon{
+  position: absolute;
+  height: 23px;
+  width: 25px;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  
+}
+.Save_button_container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.Save_button{
+  border-radius: 8px;
+  background: #000; 
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: white;
+  border: none;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  cursor: pointer;
+}
