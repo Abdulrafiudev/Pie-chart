@@ -109,6 +109,8 @@ body{
   left: 88px;
   top: 10px;
   bottom: 10px;
+  display: flex;
+  flex-direction: column;
  
   width: 320px;
   margin-left: 20px;
@@ -287,4 +289,91 @@ form{
   width: 60px;
   height: 10px;
   
+}
+
+/* Css for the chat landing page */
+
+.chat_landing_profile_return{
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}
+.chat_content_profile{
+  color: #000;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+  
+}
+.chat_landing_email_icon{
+  height: 23px;
+  width: 25px;
+  
+}
+.search_div{
+  position: relative;
+  width: 87%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.search_input{
+  width: 100%;
+  border-radius: 8px;
+  background: #F7F7F7; 
+  height: 30px;
+  border: 1px solid #F7F7F7;
+  padding-left: 35px;
+}
+.search_input::placeholder{
+  color: rgba(0, 0, 0, 0.32);
+  font-family: Lato;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.search_icon{
+  position: absolute;
+  left: 6px;
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+
+}
+.pie_div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 89%;
+  gap: 7px;
+}
+.pie_image{
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
+.pie_div div h2{
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+}
+.pie_div div p{
+  color: rgba(0, 0, 0, 0.32);
+  font-family: Lato;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
 }
