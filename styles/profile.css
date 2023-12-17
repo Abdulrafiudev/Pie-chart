@@ -205,6 +205,7 @@ form{
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  justify-content: center;
  
  
 }
@@ -222,6 +223,8 @@ form{
   line-height: normal; 
   cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: center;
  
   
   
@@ -398,6 +401,7 @@ form{
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  
  
 
 }
@@ -427,6 +431,7 @@ form{
 .menu_icon{
   height: 30px;
   width: auto;
+  cursor: pointer;
 
   
   
@@ -434,7 +439,7 @@ form{
 .right_header{
   position: relative;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 27px;
   
 }
 .chatting_footer{
