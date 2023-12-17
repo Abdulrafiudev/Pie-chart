@@ -398,13 +398,16 @@ form{
   justify-content: space-between;
   width: 100%;
   align-items: center;
+ 
+
 }
 .left_header{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
+  
 }
 .chatting_pie_icon{
   height: 60px;
@@ -424,11 +427,14 @@ form{
 .menu_icon{
   height: 30px;
   width: auto;
+
+  
   
 }
 .right_header{
   position: relative;
   margin-right: 20px;
+  margin-top: 20px;
   
 }
 .chatting_footer{
@@ -478,4 +484,16 @@ form{
   width: auto;
   right: 10px;
   cursor: pointer;
+}
+.horizontal_rule{
+  position: relative;
+  top: -37%;
+ 
+  text-align: center;
+  
+}
+hr{
+  border-color:  rgba(0, 0, 0, 0.13);
+  width: 95%;
+  margin: auto;
 }
