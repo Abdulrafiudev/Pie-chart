@@ -25,11 +25,7 @@ open_padlock.addEventListener(`click`, () => {
   
   })
 
-  // Email Validation
-
-  
-
-
+// Email Validation
 function email_validator(){
   let email_input = document.querySelector(`.email_input`);
   let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -51,8 +47,27 @@ function email_validator(){
   }
     
 }
-let email_input = document.querySelector(`.email_input`).addEventListener(`input`, () => {
+document.querySelector(`.email_input`).addEventListener(`input`, () => {
   email_validator()
+})
+
+//Password Validation
+
+function password_validator(){
+  let password_length = password.value.length
+  let error_password_message = document.querySelector(`.invalid_password`)
+  
+  if (password_length < 8){
+     error_password_message.innerHTML = `Password must be at least 8 characters`
+     error_password_message.classList.add(`visible_invalid_email_error_message`)
+  }
+
+  else{
+    error_password_message.classList.remove(`visible_invalid_email_error_message`)
+  }
+}
+password.addEventListener(`input`, () => {
+  password_validator()
 })
 
 

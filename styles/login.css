@@ -90,7 +90,9 @@
   height: 19px;
   width: 22px;
   right: 10px;
+  top: 9px;
   cursor: pointer;
+
   
 }
 .lock_padlock{
@@ -98,6 +100,7 @@
   height: 22px;
   width: 24px;
   right: 10px;
+  top: 9px;
   cursor: pointer;
 }
 .invisible_padlock{
@@ -269,13 +272,14 @@
   height: 10px;
   margin-bottom: 95px;
 }
-.invalid_email{
+.invalid_email, .invalid_password{
   color: red;
   font-family: Lato;
   font-size: 11.5px;
   margin-left: 5px;
   margin-top: 5px;
- display: none;
+  
+  display: none;
 
 }
 .visible_invalid_email_error_message{
