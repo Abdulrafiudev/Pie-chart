@@ -1,4 +1,4 @@
-#PIE CHAT
+# PIE CHAT
 This 5 multipage page website was created with HTML CSS $ JAVASCRIPT
 #The website consist of a :
 - Landing page.
@@ -17,7 +17,7 @@ The code consist of well explaned and arranged codes and comments are available 
 - chat_landing.html : This consist of the html for the chat landing page.
 - chatting.html : This consist of the html for the chatting page.
 # How to Navigate the websites based on the UI template provided:
-- From the provided URL you would be direct to the landing page.
+- From the provided URL (https://abdulrafiudev.github.io/Pie-chart/)  you would be direct to the landing page.
 - click on the "Get started" button to access the welcome back page.
 - Input necessary form information and click the "login" button to navigate to the profile page.
 - Click the "save changes" button to navigate to the chat landing page.
